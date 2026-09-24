@@ -35,5 +35,7 @@ jobs:
           cp app.py build/
           cp requirements.txt build/
           - name: Run tests
+       
+      - name: Run tests
         run: |
-    pytest
+          pytest
